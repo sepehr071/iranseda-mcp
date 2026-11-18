@@ -84,10 +84,6 @@ Real answer (18 Nov 2026): `sd_live_now(channel="15")` returned the Radio Quran 
 - Audio files are never fetched or played; mp3 and mp4 links are returned as URLs only. The podcast sub-site is an empty stub and is not covered.
 - It worked from an Iranian line and through a foreign proxy in testing; if your network is blocked, set `IRANSEDA_MCP_PROXY`. The server ignores system proxy variables on purpose.
 
-## How it works
-
-Iranseda has no public API documentation. The pages were mapped by watching iranseda.ir in Chrome, and every tool was then checked in Chrome against the real rendered pages (channel lists, live pages, schedules, program and episode pages, and the library sub-sites) on 18 Nov 2026. The server reads the same public pages through a Chrome-impersonating HTTP client, with a short cache and at most two requests at a time.
-
 ## فارسی
 
 <div dir="rtl">
