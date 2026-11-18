@@ -1,6 +1,6 @@
 [project]
 name = "iranseda-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Unofficial read-only MCP server for Iranseda (ایران‌صدا, radio.iranseda.ir), the IRIB audio archive: radio channels, live streams, schedules, programs, audiobooks, music, Quran."
 readme = "README.md"
 license = "PolyForm-Noncommercial-1.0.0"
